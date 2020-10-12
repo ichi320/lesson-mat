@@ -18,4 +18,7 @@ func main() {
 	fmt.Printf("%T - %v\n", a, a)
 	utils.MatPrint(a)
 
+	b := mat.Row(nil, 0, A)
+	fmt.Printf("%T - %v", b, b)
+
 }
